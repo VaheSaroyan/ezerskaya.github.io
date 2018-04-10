@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Harasho - tea shop</title>
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+	<section>
+		<div class="container">
+			<!-- <div class="img2" id="img2"><img src="img/wave-white.png" alt="" height="540"></div> -->
+			<!-- <div class="img" id="img"><img src="img/wave.png" alt="" height="520"></div> -->
+			<div class="img" id="img"><img src="img/big-wave.png" alt="wave" width="100%"></div>
+			<div class="row">
+				<div class="upper-btn">
+					<a class="btn" href="https://www.instagram.com/harasho.tea/" target="_blank">
+						<span class="first-text">tea</span>
+						<span class="second-text">look at me</span>
+					</a>
+					<a class="btn" href="https://www.facebook.com/groups/893984584000722/"  target="_blank">
+						<span class="first-text">shop</span>
+						<span class="second-text">buy me</span>
+
+					</a>
+				</div>
+				<div class="title">harasho</div>
+				<div class="bottom-btn">
+					<a class="btn" href="https://t.me/taaole" target="_blank">
+						<span class="first-text">contact</span>
+						<span class="second-text">write me</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script>
+	window.onload = function () {
+
+	var deviceWidth = document.documentElement.clientWidth;
+	// var oval = document.getElementById("oval");
+	var img = document.getElementById("img");
+	// var img2 = document.getElementById("img2");
+	var device = document.getElementById("device");
+	};
+
+	window.onresize = () => deviceWidth = document.documentElement.clientWidth;
+
+	document.onmousemove = function parallax() {
+	   deviceWidth = document.documentElement.clientWidth;
+	  if (deviceWidth > 991) {
+	    img.style.top = (-400 + (event.clientY / 6)) + "px";
+	    // img2.style.top = (-20 + (event.clientY / 30)) + "px";
+	    // img2.style.left = (0 + (event.clientX / 30)) + "px";
+	  }
+	  if (deviceWidth > 1656) {
+	  	img.style.top = (-500 + (event.clientY / 60)) + "px";
+	    // img.style.left = (-30 + (event.clientX / 60)) + "px";
+	    // img2.style.top = (20 + (event.clientY / 30)) + "px";
+	    // img2.style.left = (0 + (event.clientX / 30)) + "px";
+	  }
+	  if (deviceWidth > 2000) {
+	  	img.style.top = (-700 + (event.clientY / 60)) + "px";
+	  }
+	}
+	</script>
+</body>
+</html>

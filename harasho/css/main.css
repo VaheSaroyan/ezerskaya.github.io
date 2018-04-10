@@ -1,0 +1,186 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+@font-face {
+  font-family: 'Real Madrid';
+  src: url("../fonts/realmadrid2009-webfont.woff") format("woff"), url("../fonts/realmadrid2009-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100%;
+  font-family: 'Real Madrid';
+  background: url("../img/background.png") no-repeat center center;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-attachment: fixed; }
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx) {
+  html {
+    background: url("../img/background@2x.png") no-repeat center center;
+    -webkit-background-size: cover;
+            background-size: cover; } }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 3rem; }
+
+.img {
+  display: block;
+  position: absolute;
+  z-index: -200;
+  max-width: 100%;
+  top: -400px; }
+
+.container {
+  height: 50vh;
+  min-height: 500px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: wrap column;
+      -ms-flex-flow: wrap column;
+          flex-flow: wrap column; }
+
+.upper-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: wrap row;
+      -ms-flex-flow: wrap row;
+          flex-flow: wrap row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 97%; }
+  .upper-btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 5rem; }
+  .upper-btn a:hover {
+    color: #50574e; }
+
+.title {
+  font-size: 15rem;
+  letter-spacing: .02em;
+  color: white;
+  text-shadow: 2px 1px 13px grey; }
+
+.bottom-btn {
+  height: 150px;
+  width: 44.3%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: wrap column;
+      -ms-flex-flow: wrap column;
+          flex-flow: wrap column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  .bottom-btn a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem; }
+  .bottom-btn a:hover {
+    color: #50574e; }
+
+a .second-text {
+  display: none; }
+
+a:hover .second-text {
+  display: inline; }
+
+a:hover .first-text {
+  display: none; }
+
+.first-text:hover {
+  display: none; }
+
+@media only screen and (max-width: 768px) {
+  html {
+    background-color: #b7b7b7;
+    background-image: none; }
+  .container {
+    height: 80vh; }
+  .title {
+    font-size: 7rem; }
+  .img, .img2 {
+    display: none; }
+  .upper-btn {
+    height: 110px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: wrap column;
+        -ms-flex-flow: wrap column;
+            flex-flow: wrap column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+    .upper-btn a {
+      color: white;
+      text-decoration: none;
+      font-size: 4rem; }
+  .bottom-btn {
+    height: 40px; }
+    .bottom-btn a {
+      color: white;
+      text-decoration: none;
+      font-size: 2.5rem; } }
+
+@media only screen and (max-width: 1200px) {
+  .img, .img2 {
+    display: none; } }
+
+@media only screen and (min-width: 1576px) {
+  .title {
+    font-size: 18rem; } }
+
+@media only screen and (min-width: 1656px) {
+  .upper-btn {
+    margin-top: 5rem; }
+  .img {
+    top: -500px; } }
+
+@media only screen and (min-width: 2000px) {
+  .upper-btn {
+    margin-top: 7rem; }
+  .img {
+    top: -700px; } }
