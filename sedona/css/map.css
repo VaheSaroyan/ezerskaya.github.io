@@ -1,0 +1,15 @@
+#map {
+  width: auto;
+  padding-bottom: 45px;
+  height: 350px;
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  #map {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 94%;
+    box-shadow: 6px 0px 15px -10px rgba(0, 0, 0, 0.3), -6px 0px 15px -10px rgba(0, 0, 0, 0.3);
+  }
+}

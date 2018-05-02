@@ -1,0 +1,20 @@
+body {
+  background: #fff;
+  background-size: 720px auto;
+  min-height: 750px;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: #fff;
+    background-size: 1178px auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    background: #fff;
+    box-shadow: 5px 5px 4px 2px rgba(0, 0, 0, 0.5);
+    background-size: 1391px auto;
+  }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Sedona</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/outlines.css">
+  <link rel="stylesheet" type="text/css" href="css/main-nav.css">
+  <link rel="stylesheet" type="text/css" href="css/descr.css">
+  <link rel="stylesheet" type="text/css" href="css/scaffolding.css">
+  <link rel="stylesheet" type="text/css" href="css/head-welcome.css">
+  <link rel="stylesheet" type="text/css" href="css/search.css">
+  <link rel="stylesheet" type="text/css" href="css/page-footer.css">
+  <link rel="stylesheet" type="text/css" href="css/map.css">
+  <link rel="stylesheet" type="text/css" href="css/triangle.css">
+  <link rel="stylesheet" type="text/css" href="css/variables.css">
+  <link rel="stylesheet" type="text/css" href="css/mixins.css">
+</head>
+
+<body>
+  <header class="page-header">
+    <h1 class="visually-hidden">Sedona - путеводитель по городу</h1>
+
+    <nav class="main-nav main-nav--opened main-nav--nojs">
+
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__items  main-nav__items--left">
+          <li class="main-nav__item  main-nav__item--pushed"><a>Главная</a></li>
+          <li class="main-nav__item"><a href="#">Фото и видео</a></li>
+        </ul>
+
+        <ul class="main-nav__items main-nav__items--right">
+          <li class="main-nav__item"><a href="#">Форма отзыва</a></li>
+          <li class="main-nav__item"><a href="#">HTML Academy</a></li>
+        </ul>
+
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+
+        <div class="main-nav__logo">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/logotype-desktop.png">
+              <img src="img/logotyle-mobile.png" alt="Логотип Седона" >
+            </picture>
+        </div>
+      </div>
+    </nav>
+
+  <div class="head-welcome">
+    <div class="head-welcome__wrapper">
+      <div class="head-welcome__title">
+        <picture>
+          <source media="(min-width: 768px)" srcset="img/text-index-tablet.png">
+            <img src="img/text-index.png" alt="Welcome to Sedona">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="triangle"></div>
+
+  <section class="descr">
+    <header class="descr__header">
+      <h2 class="visually-hidden">Описание Sedona</h2>
+      <span class="descr__header--slogan">Седона - небольшой городок в Аризоне, заслуживающий большего!</span>
+      <span class="descr__header--intro">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</span>
+    </header>
+
+    <div class="descr__items">
+      <div class="descr__item--blue-block">
+        <span class="descr__item--title">Настоящий городок</span>
+        <span class="descr__item--number"> - №1 -</span>
+        <span class="descr__item--content"> Седона не атракцион для туристов, там течёт своя жизнь</span>
+      </div>
+
+      <div class="descr__photo">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/photo-city-desktop.jpg">
+          <source media="(min-width: 768px)" srcset="img/photo-city-tablet.jpg">
+            <img src="img/photo-city-mobile.jpg" alt="Фото города" >
+          </picture>
+        </div>
+
+        <div class="descr__item--logo-block">
+          <picture class="descr__item--logo">
+            <source media="(min-width: 768px)" srcset="img/icon-house-tablet.png">
+              <img src="img/icon-house-mobile.png" alt="Жилье">
+            </picture>
+            <span class="descr__item-logo--title">Жилье</span>
+            <p class="descr__item-logo--content">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+        </div>
+
+        <div class="descr__item--logo-block">
+          <picture class="descr__item--logo">
+            <source media="(min-width: 768px)" srcset="img/icon-gift-tablet.png">
+              <img src="img/icon-gift-moble.png" alt="Сувениры">
+            </picture>
+            <span class="descr__item-logo--title">Сувениры</span>
+            <p class="descr__item-logo--content">Не только китайского, но и местного производства!
+            </p>
+          </div>
+
+          <div class="descr__item--logo-block">
+            <picture class="descr__item--logo">
+              <source media="(min-width: 768px)" srcset="img/icon-burger-tablet.png">
+                <img src="img/icon-burger-moble.png" alt="Еда" class="">
+              </picture>
+              <span class="descr__item-logo--title">Еда</span>
+              <p class="descr__item-logo--content">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+            </div>
+
+
+            <div class="descr__item--blue-block">
+              <span class="descr__item--title">Там есть мост дъявола</span>
+              <span class="descr__item--number"> - №2 -</span>
+              <span class="descr__item--content">Да, по нему можно пройти!<br> Если вы конечно осмелитесь</span>
+            </div>
+
+            <div class="descr__photo">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/photo-bridge-desktop.jpg">
+                <source media="(min-width: 768px)" srcset="img/photo-bridge-tablet.jpg">
+                <img src="img/photo-bridge-mobile.jpg" alt="Фото города">
+                </picture>
+              </div>
+
+              <div class="descr__item--white-block">
+                <span class="descr__item--title">Небольшая площадь</span>
+                <span class="descr__item--number"> - №3-</span>
+                <span class="descr__item--content">Все достопримечательности<br> Находятся очень близко</span>
+              </div>
+
+              <div class="descr__item--white-block">
+                <span class="descr__item--title">Красивая дорога</span>
+                <span class="descr__item--number"> - №4-</span>
+                <span class="descr__item--content">Ехать в Седону из Лас-Вегаса совсем не скучно</span>
+              </div>
+
+              <div class="descr__item--white-block">
+                <span class="descr__item--title">Мало туристов</span>
+                <span class="descr__item--number"> - №5-</span>
+                <span class="descr__item--content">Большинство едет в Гранд Каньон и толпится там</span>
+              </div>
+    </div>
+  </section>
+
+          <section class="search">
+            <h2 class="search__title">Заинтересовались?</h2><br>
+            <span class="search__instruction">укажите предполагаемые даты поездки<br> и мы покажем вам лучшие предложения гостиниц в Седоне</span>
+            <div class="search__btn">
+              <button type="button" class="search__btn--style">Найти гостиницу</button>
+            </div>
+          </section>
+
+          <div id="map"></div>
+
+          <footer class="page-footer">
+            <div class="page-footer__wrapper">
+              <h3 class="page-footer__title">#visitsedona</h3>
+
+              <p class="page-footer__social">
+                <span class="social-links">
+                  <a class="social-link  social-link--tw" href="#"></a>
+                  <a class="social-link  social-link--fb" href="#"></a>
+                  <a class="social-link  social-link--youtb" href="#"></a>
+                </span>
+              </p>
+              <p class="page-footer__copyright">
+                Разработано:
+                <a class="page-footer__copyright-link" href="https://htmlacademy.ru/" target="_blank"><img src="img/htmlac.png" alt="Логотип HTML Academy" width="27" height="34"></a></p>
+              </div>
+            </footer>
+
+  <script>
+   function initMap() {
+     var coordinates = {lat: 34.860078, lng: -111.763908},
+     markerImage = 'img/map-marker@2x.png',
+
+     map = new google.maps.Map(document.getElementById('map'), {
+       center: coordinates,
+       zoom: 8
+     });
+
+     var marker = new google.maps.Marker({
+      position: coordinates,
+      map: map,
+      icon: markerImage,
+      animation: google.maps.Animation.BOUNCE
+    });
+   }
+ </script>
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3D4YJDfESALMbc6c8v2lsYzzCrtC9qJg&callback=initMap"></script>
+</body>
+</html>

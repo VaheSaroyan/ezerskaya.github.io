@@ -1,0 +1,31 @@
+.triangle {
+  display: block;
+  width: 100%;
+  height: 57px;
+  margin-top: -57px;
+  background-image: url("../img/intro-triangle-tablet.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .triangle {
+    display: block;
+    margin-top: -57px;
+    background-image: url("../img/intro-triangle-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1200px) {
+  .triangle {
+    max-width: 1200px;
+    width: 94%;
+    margin: auto;
+    margin-top: -57px;
+    background-image: url("../img/intro-triangle-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}

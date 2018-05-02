@@ -1,0 +1,76 @@
+.head-welcome {
+  background-image: url("../img/back-desktop.jpg");
+  background-position: center;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 390px;
+  margin-top: -40px;
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .head-welcome {
+    background-image: url("../img/back-desktop@2x.jpg");
+    background-size: 1200px auto;
+  }
+}
+
+.head-welcome__title {
+  text-align: center;
+  padding-top: 86px;
+}
+
+.head-welcome__titleimg {
+  width: 100%;
+  height: 214px;
+}
+
+@media (min-width: 768px) {
+  .head-welcome {
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+  }
+}
+
+@media (min-width: 768px) and (min-width: 1200px) {
+  .head-welcome {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 94%;
+    box-shadow: 6px 0px 15px -10px rgba(0, 0, 0, 0.3), -6px 0px 15px -10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (min-width: 768px) {
+  .head-welcome__title {
+    padding-top: 80px;
+  }
+  .head-welcome__titleimg {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .head-welcome {
+    width: auto;
+  }
+}
+
+@media (min-width: 1200px) and (min-width: 1200px) {
+  .head-welcome {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 94%;
+    box-shadow: 6px 0px 15px -10px rgba(0, 0, 0, 0.3), -6px 0px 15px -10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@media (min-width: 1200px) {
+  .head-welcome__title {
+    width: 100%;
+    padding-top: 110px;
+  }
+}
