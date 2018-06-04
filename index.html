@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ezerskaya - resume </title>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+</head>
+<body>
+	<header class="resume">
+		<div class="resume__container">
+			<a class="resume__logo" href="#">
+				<h1 class="resume__title">
+					<span class="resume__box1">
+						<span class="resume__box2"><span class="resume__text">Езерская<br>Екатерина</span>
+						<div class="resume__text--title">резюме</div>
+						</span>
+						</span>
+
+					</span>
+					<span class="resume_box3">
+						<!-- <span class="resume__box4"><span class="resume-text">резюме</span>
+						</span> -->
+						<span class="resume__box5"><span class="resume-text">резюме</span>
+						</span>
+						<span class="resume__box4"><span class="resume-text"></span>
+						</span>
+					</span>
+				</h1>
+			</a>
+
+			<ul class="menu">
+				<li class="menu__item menu__item--1">
+					<a class="menu__link" href="eng-index.html">eng</a>
+				</li>
+				<li class="menu__item menu__item--2">
+					<a onclick="return app.scrollTo(this)" class="menu__link" href="#contact" class="menu__link" href="#">контакты</a>
+				</li>
+				<li class="menu__item menu__item--3">
+					<a onclick="return app.scrollTo(this)" class="menu__link" href="#port">работы</a>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<section class="inform">
+			<div class="inform-block1">
+				<article class="inform-block1__article">
+					<div class="inform-block1__dates">
+						<span class="inform-block1__dates--about">Обо мне</span>
+					</div>
+					<div class="inform__image">
+						<img src="img/me.jpg" alt="myphoto"  height="350">
+					</div>
+					<div class="inform-contact">
+						<p class="inform-contact__title" id="contact"> Привет, я HTML-верстальщик. Закончила базовый курс в epic skills, продолжила обучение в html-academy и code-academy. Работы в портфолио свёрстаны адаптивно, с использованием flexbox, scss, собраны в gulp. Несколько месяцев участвовала в проектной работе для фармацевтических компаний удалённо. Изучаю java script (для создания интерактивных элементов), интересуюсь принципами создания пользовательского интерфейса и тенденциями в веб-дизайне.<br>
+						</p>
+						<div class="inform-contact__content">
+							<p class="inform-contact__content--about"> Буду рада интересным проектам: <a href="#">telegram (@ezerskayakatja)</a></p>
+							<ul class="inform-contact__content--links" >
+								<li class="inform-contact__content--link"> <a href="https://github.com/Ezerskaya" target="_blank">git/</a>
+								</li>
+								<li class="inform-contact__content--link" target="_blank"> <a href="https://www.facebook.com/ezerskaya" target="_blank">facebook/</a>
+								</li><br>
+								<li class="inform-contact__content--link"> <a href="mailto:ezersk@gmail.com?subject=Предложение о работе" target="_blank">ezersk@gmail.com</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</article>
+			</div>
+			<aside class="cv">
+				<div class="inform-block1__dates">
+					<span class="inform-block1__dates--about">Опыт работы</span>
+				</div>
+				<article class="cv-content">
+					<div class="cv-content__dates">
+						<span class="cv-content__date">Верстальщик-дизайнер</span>
+						<span class="cv-content__date">2018</span>
+					</div>
+					<span class="cv-content__work">Работа удалённо<br> Адаптация сайтов под мобильные устройства.  </span>
+				</article>
+				<article class="cv-content">
+					<div class="cv-content__dates">
+						<span class="cv-content__date">Маркетолог</span>
+						<span class="cv-content__date">2016-2017</span>
+					</div>
+					<span class="cv-content__work"> 
+						<a href="https://pravpitanie.ru/">Правильное питание</a> - сеть диетических магазинов<br>
+						<p>- Мониторинг и анализ тенденций продаж при запуске новых продуктов; <br>- сбор информации и анализ конкурентов;<br>- отслеживание показателей интернет-магазина в Яндекс.Метрика;<br>- написание текстов для интернет-магазина;<br>- разработка и внедрение стратегий повышения узнаваемости бренда, включая контент-план для Instagram и Вконтакте;<br>- работа в Ads Manager (настройка параметров, запуск рекламных сообщений);<br>- анализ показателей в Яндекс Метрика;<br>- координация маркетинговых и спонсорских мероприятий.</p>
+					</span>
+				</article>
+				<article class="cv-content">
+					<div class="cv-content__dates">
+						<span class="cv-content__date">Ассистент маркетолога</span>
+						<span class="cv-content__date">2014-2015</span>
+					</div>
+					<span class="cv-content__work"><a href="https://infoshell.ru/">Infoshell</a> - студия разработки мобильных приложений<br>
+						Подготовка к дипломной работе:<br>- Проведение конкурентного анализа (сбор и обработка информации, анализ полученных данных, составление отчёта);<br>
+						- создание презентаций о проектах компании для заказчиков;<br>
+					- работа с отзывами (Вконтакте, профильные форумы).</span>
+				</article>
+			</aside>
+			<div class="portfolio" id="port">
+				<article class="portfolio__works">
+					<a href="https://ezerskaya.github.io/harasho/" target="_blank"><img src="img/project-one.png" alt="магазин чая"></a>
+					<div class="portfolio__contain">
+						<h3 class="portfolio__contain--titles">
+							<a class="portfolio__contain--title" href="https://ezerskaya.github.io/harasho/" target="_blank">Магазин чая</a>
+						</h3>
+						<div class="portfolio__contain--main">
+							<p>Несложный, одностраничный сайт для чайного интернет-магазина <a href="https://www.instagram.com/harasho.tea/">Harasho.</a> Сайт содержит ссылки на социальные сети, где можно ознакомиться с ассортиментом. </p>
+						</div>
+					</div>
+				</article>
+				<article class="portfolio__works">
+					<a href="https://ezerskaya.github.io/sedona/" target="_blank"><img src="img/project-tree.png" alt="магазин чая"></a>
+					<div class="portfolio__contain">
+						<h3 class="portfolio__contain--titles">
+							<a class="portfolio__contain--title" href="https://ezerskaya.github.io/sedona/" target="_blank">Учебный проект</a>
+						</h3>
+						<div class="portfolio__contain--main">
+							<p>Один из самых удачных и серьёзных учебных проектов от <a href="https://htmlacademy.ru/">"HTML- academy".</a> Адаптивный сайт с попыткой ретинизации изображений.</p>
+						</div>
+					</div>
+				</article>
+				<article class="portfolio__works">
+					<a href="https://ezerskaya.github.io/liveo/" target="_blank"><img src="img/project-two.png" alt="магазин чая"></a>
+					<div class="portfolio__contain">
+						<h3 class="portfolio__contain--titles">
+							<a class="portfolio__contain--title" href="https://ezerskaya.github.io/liveo/" target="_blank">Тестовое задание</a>
+						</h3>
+						<div class="portfolio__contain--main">
+							<p>Устаревший сайт переделан с использованием фреймворка <a href="https://materializecss.com/"> Materialize CSS.</a> Расположение элементов и цветовая гамма изменены на моё усмотрение. </p>
+						</div>
+					</div>
+				</article>
+			</div>
+		</section>
+	</main>
+<script>
+	var app = {
+    scrolled: 0,
+    newPosition: 0,
+    interval: null,
+    speed: 0,
+
+    scrollTo: function(el) {
+        var link = el.getAttribute('href').replace('#', ''),
+            port = document.getElementById(link),
+            contact = document.getElementById(link);
+
+        var location = 0;
+        if (port.offsetParent) {
+            do {
+                location += port.offsetTop;
+                port = port.offsetParent;
+            } while (port);
+        }
+        location = location >= 0 ? location : 0;
+
+        this.animateScroll(location);
+        return false;
+    },
+
+    var location = 0;
+        if (contact.offsetParent) {
+            do {
+                location += contact.offsetTop;
+                contact = contact.offsetParent;
+            } while (contact);
+        }
+        location = location >= 0 ? location : 0;
+
+        this.animateScroll(location);
+        return false;
+    },
+
+    animateScroll: function(pos) {
+        document.documentElement.scrollTop = 1;
+        var element = (document.documentElement && document.documentElement.scrollTop) ? document.documentElement : document.body,
+            start = element.scrollTop,
+            change = pos - start,
+            currentTime = 0,
+            increment = 10,
+            duration = 300;
+
+        var animateScroll = function(){        
+            currentTime += increment;
+            var val = Math.easeInOutQuad(currentTime, start, change, duration);
+            element.scrollTop = val;
+            if(currentTime < duration) {
+                setTimeout(animateScroll, increment);
+            }
+        };
+        animateScroll();
+    }
+};   
+
+Math.easeInOutQuad = function (t, b, c, d) {
+    t /= d/2;
+    if (t < 1) return c/2*t*t + b;
+    t--;
+    return -c/2 * (t*(t-2) - 1) + b;
+};
+</script>
+</body>
+</html>
