@@ -589,6 +589,11 @@ p {
   display: block;
   padding: 0.5em 1em; }
 
+@media (min-width: 1540px) {
+  .cv-content__date,
+  .cv-content__date {
+    border-top: 3px solid; } }
+
 @media (min-width: 960px) {
   .portfolio {
     -webkit-box-ordinal-group: 4;
