@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const outputDirectory = 'docs'
 
 module.exports = {
-  entry: './index.js',
+  entry: './src/index.js',
   output: {
     path: path.join(__dirname, outputDirectory),
     filename: 'bundle.[hash].js'
@@ -13,13 +13,13 @@ module.exports = {
   devServer: {
     port: 3000,
     open: true,
-    contentBase: 'index.html',
+    contentBase: 'src/index.html',
     watchContentBase: true,
   },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: './index.html'
+      template: './src/index.html'
     })
   ]
 }
