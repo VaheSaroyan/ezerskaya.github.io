@@ -1,1 +1,1 @@
-trader-terminal-demo
+trader terminal demo
